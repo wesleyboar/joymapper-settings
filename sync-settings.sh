@@ -31,6 +31,14 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_BIN="$REPO_DIR/settings.bin"
 READABLE="$REPO_DIR/settings.readable.json"
 
+if [ -L "$LIVE" ]; then
+  echo "error: live settings path is a symlink, refusing to sync:" >&2
+  echo "  $LIVE" >&2
+  echo "JoyMapper is sandboxed and can't reliably read/write through a symlink" >&2
+  echo "that points outside its container — replace it with a real file first." >&2
+  exit 1
+fi
+
 if [ "$RESTORE" -eq 1 ]; then
   if [ ! -f "$REPO_BIN" ]; then
     echo "error: no settings.bin in repo to restore from:" >&2
