@@ -1,0 +1,338 @@
+[
+  "first-run",
+  "lastVer",
+  "agree",
+  "trial",
+  "int64",
+  "<binary value, not decoded>",
+  "mapping",
+  "[]uint8",
+  "8",
+  [
+    {
+      "e": "057e_2006_6d75c0c4",
+      "g": {
+        "1": {
+          "o": 11,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "1048576": {
+          "o": 14,
+          "p": [
+            "option"
+          ],
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "128": {
+          "o": 15,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "131072": {
+          "o": 14,
+          "q": "up",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "16": {
+          "o": 14,
+          "q": "volume +",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "16777216": {
+          "o": 1,
+          "r": 1
+        },
+        "2": {
+          "o": 14,
+          "q": "page up",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "2048": {
+          "o": 14,
+          "q": "enter",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "2097152": {
+          "o": 14,
+          "q": "tab",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "256": {
+          "o": 14,
+          "q": "f14",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "262144": {
+          "o": 14,
+          "q": "right",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "32": {
+          "o": 14,
+          "q": "volume -",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4": {
+          "o": 14,
+          "q": "page down",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4194304": {
+          "o": 14,
+          "p": [
+            "shift"
+          ],
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4294968320": {
+          "o": 1,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4294969344": {
+          "o": 1,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "512": {
+          "o": 14,
+          "q": "play | pause",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "524288": {
+          "o": 14,
+          "q": "left",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "64": {
+          "o": 14,
+          "q": "fast forward",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "65536": {
+          "o": 14,
+          "q": "down",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "8": {
+          "o": 12,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "8192": {
+          "o": 14,
+          "q": "f20",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "8388608": {
+          "o": 11,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        }
+      }
+    },
+    {
+      "e": "057e_2007_643105fa",
+      "g": {
+        "1": {
+          "o": 14,
+          "q": "left",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "1024": {
+          "o": 12,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "1048576": {
+          "o": 14,
+          "q": "volume -",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "128": {
+          "o": 11,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "131072": {
+          "o": 14,
+          "q": "page up",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "16": {
+          "o": 14,
+          "q": "tab",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "16777216": {
+          "o": 1,
+          "r": 1
+        },
+        "2": {
+          "o": 14,
+          "q": "up",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "2097152": {
+          "o": 14,
+          "q": "volume +",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "256": {
+          "o": 14,
+          "q": "play | pause",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "262144": {
+          "o": 12,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "32": {
+          "o": 14,
+          "p": [
+            "option"
+          ],
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4": {
+          "o": 14,
+          "q": "down",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4096": {
+          "o": 14,
+          "q": "f20",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4194304": {
+          "o": 14,
+          "q": "fast forward",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4294968320": {
+          "o": 6,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "4294969344": {
+          "o": 1,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "512": {
+          "o": 14,
+          "q": "f14",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "524288": {
+          "o": 11,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "64": {
+          "o": 14,
+          "p": [
+            "shift"
+          ],
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "65536": {
+          "o": 14,
+          "q": "page down",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "8": {
+          "o": 14,
+          "q": "right",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "8192": {
+          "o": 14,
+          "p": [
+            "command",
+            "shift"
+          ],
+          "q": "3",
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        },
+        "8388608": {
+          "o": 15,
+          "r": 1,
+          "u": "com.apple.keylayout.US"
+        }
+      }
+    }
+  ],
+  "target-app-list",
+  "[]uint8",
+  [
+    {
+      "i": "Default"
+    }
+  ],
+  "game-con-list",
+  "[]uint8",
+  [
+    {
+      "a": "057e_2006_6d75c0c4",
+      "b": 281474976710656,
+      "c": 179955455,
+      "f": "50:23:6D:75:C0:C4",
+      "o": "50:23:6D:75:C0:C4",
+      "q": 12100
+    },
+    {
+      "a": "057e_2007_643105fa",
+      "b": 562949953421312,
+      "c": 179955455,
+      "f": "AC:FA:E4:31:05:FA",
+      "o": "AC:FA:E4:31:05:FA",
+      "q": 12100
+    }
+  ],
+  "trial-end",
+  "int64",
+  "<binary value, not decoded>",
+  "settingsFormat",
+  "iap1-tid",
+  "string",
+  "260003223718582",
+  "iap1-time",
+  "string",
+  "2026-09-13T22:18:48-05:00",
+  "iap1-sk2"
+]
