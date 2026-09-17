@@ -1,13 +1,9 @@
 [
+  "settingsFormat",
   "first-run",
-  "lastVer",
-  "agree",
-  "trial",
-  "int64",
-  "<binary value, not decoded>",
   "mapping",
   "[]uint8",
-  "8",
+  "Y",
   [
     {
       "e": "057e_2006_6d75c0c4",
@@ -19,9 +15,7 @@
         },
         "1048576": {
           "o": 14,
-          "p": [
-            "option"
-          ],
+          "q": "mute",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -32,7 +26,9 @@
         },
         "131072": {
           "o": 14,
-          "q": "up",
+          "p": [
+            "option"
+          ],
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -43,8 +39,7 @@
           "u": "com.apple.keylayout.US"
         },
         "16777216": {
-          "o": 1,
-          "r": 1
+          "o": 1
         },
         "2": {
           "o": 14,
@@ -60,19 +55,21 @@
         },
         "2097152": {
           "o": 14,
-          "q": "tab",
+          "q": "esc",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
         "256": {
           "o": 14,
-          "q": "f14",
+          "q": "delete",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
         "262144": {
           "o": 14,
-          "q": "right",
+          "p": [
+            "command"
+          ],
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -114,7 +111,9 @@
         },
         "524288": {
           "o": 14,
-          "q": "left",
+          "p": [
+            "control"
+          ],
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -126,7 +125,9 @@
         },
         "65536": {
           "o": 14,
-          "q": "down",
+          "p": [
+            "fn"
+          ],
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -137,7 +138,11 @@
         },
         "8192": {
           "o": 14,
-          "q": "f20",
+          "p": [
+            "command",
+            "shift"
+          ],
+          "q": "5",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -158,7 +163,7 @@
           "u": "com.apple.keylayout.US"
         },
         "1024": {
-          "o": 12,
+          "o": 13,
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -169,7 +174,8 @@
           "u": "com.apple.keylayout.US"
         },
         "128": {
-          "o": 11,
+          "o": 14,
+          "q": "tab",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -181,13 +187,12 @@
         },
         "16": {
           "o": 14,
-          "q": "tab",
+          "q": "brightness +",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
         "16777216": {
-          "o": 1,
-          "r": 1
+          "o": 1
         },
         "2": {
           "o": 14,
@@ -214,9 +219,7 @@
         },
         "32": {
           "o": 14,
-          "p": [
-            "option"
-          ],
+          "q": "brightness -",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -228,7 +231,7 @@
         },
         "4096": {
           "o": 14,
-          "q": "f20",
+          "q": "f11",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -249,8 +252,7 @@
           "u": "com.apple.keylayout.US"
         },
         "512": {
-          "o": 14,
-          "q": "f14",
+          "o": 12,
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -261,9 +263,7 @@
         },
         "64": {
           "o": 14,
-          "p": [
-            "shift"
-          ],
+          "q": "f14",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -297,13 +297,10 @@
       }
     }
   ],
-  "target-app-list",
-  "[]uint8",
-  [
-    {
-      "i": "Default"
-    }
-  ],
+  "lastVer",
+  "iap1-time",
+  "string",
+  "2026-09-13T22:18:48-05:00",
   "game-con-list",
   "[]uint8",
   [
@@ -327,12 +324,19 @@
   "trial-end",
   "int64",
   "<binary value, not decoded>",
-  "settingsFormat",
+  "iap1-sk2",
+  "agree",
+  "target-app-list",
+  "[]uint8",
+  [
+    {
+      "i": "Default"
+    }
+  ],
   "iap1-tid",
   "string",
   "260003223718582",
-  "iap1-time",
-  "string",
-  "2026-09-13T22:18:48-05:00",
-  "iap1-sk2"
+  "trial",
+  "int64",
+  "<binary value, not decoded>"
 ]
