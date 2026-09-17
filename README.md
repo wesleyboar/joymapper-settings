@@ -16,27 +16,3 @@ To sync [JoyMapper](https://diaohs.com/joymapper/) settings —
 
 > [!WARNING]
 > **Do not symlink JoyMapper's settings path to this repo**, because JoyMapper can't reliably read/write through a symlink that points outside its container (because it is sandboxed) — it silently resets to a fresh trial when it fails to load settings that way.
-
-## Saved profiles
-
-Named git tags snapshot whole `settings.bin` configurations so you can switch between them without losing either one.
-
-- `profile/dual-joycon-full-parity` — Both Joy-Cons independently support all actions (built for using them one-at-a-time, each fully capable on its own).
-
-To switch to a saved profile:
-
-```bash
-git checkout <tag-name> -- settings.bin
-./sync-settings.sh --restore
-```
-
-This overwrites the live JoyMapper settings with the tagged `settings.bin` (backing up the current live file first), then leaves your working tree on `<tag-name>`'s version of `settings.bin` — run `git checkout main -- settings.bin` afterward if you want your working tree back on `main`'s version without touching the live settings again.
-
-To save the current live config as a new named profile before switching away from it:
-
-```bash
-./sync-settings.sh
-git add settings.bin settings.readable.json && git commit -m "Update settings"
-git tag -a profile/<name> -m "<short description>"
-git push origin profile/<name>
-```
