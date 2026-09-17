@@ -1,9 +1,40 @@
 [
+  "lastVer",
+  "iap1-time",
+  "string",
+  "2026-09-13T22:18:48-05:00",
+  "game-con-list",
+  "[]uint8",
+  [
+    {
+      "a": "057e_2006_6d75c0c4",
+      "b": 281474976710656,
+      "c": 179955455,
+      "f": "50:23:6D:75:C0:C4",
+      "o": "50:23:6D:75:C0:C4",
+      "q": 12100
+    },
+    {
+      "a": "057e_2007_643105fa",
+      "b": 562949953421312,
+      "c": 179955455,
+      "f": "AC:FA:E4:31:05:FA",
+      "o": "AC:FA:E4:31:05:FA",
+      "q": 12100
+    }
+  ],
+  "trial-end",
+  "int64",
+  "<binary value, not decoded>",
+  "iap1-sk2",
+  "trial",
+  "int64",
+  "<binary value, not decoded>",
   "settingsFormat",
   "first-run",
   "mapping",
   "[]uint8",
-  "Y",
+  "S",
   [
     {
       "e": "057e_2006_6d75c0c4",
@@ -39,7 +70,8 @@
           "u": "com.apple.keylayout.US"
         },
         "16777216": {
-          "o": 1
+          "o": 1,
+          "r": 1
         },
         "2": {
           "o": 14,
@@ -187,12 +219,13 @@
         },
         "16": {
           "o": 14,
-          "q": "brightness +",
+          "q": "f18",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
         "16777216": {
-          "o": 1
+          "o": 1,
+          "r": 1
         },
         "2": {
           "o": 14,
@@ -219,7 +252,7 @@
         },
         "32": {
           "o": 14,
-          "q": "brightness -",
+          "q": "f13",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -297,34 +330,6 @@
       }
     }
   ],
-  "lastVer",
-  "iap1-time",
-  "string",
-  "2026-09-13T22:18:48-05:00",
-  "game-con-list",
-  "[]uint8",
-  [
-    {
-      "a": "057e_2006_6d75c0c4",
-      "b": 281474976710656,
-      "c": 179955455,
-      "f": "50:23:6D:75:C0:C4",
-      "o": "50:23:6D:75:C0:C4",
-      "q": 12100
-    },
-    {
-      "a": "057e_2007_643105fa",
-      "b": 562949953421312,
-      "c": 179955455,
-      "f": "AC:FA:E4:31:05:FA",
-      "o": "AC:FA:E4:31:05:FA",
-      "q": 12100
-    }
-  ],
-  "trial-end",
-  "int64",
-  "<binary value, not decoded>",
-  "iap1-sk2",
   "agree",
   "target-app-list",
   "[]uint8",
@@ -335,8 +340,5 @@
   ],
   "iap1-tid",
   "string",
-  "260003223718582",
-  "trial",
-  "int64",
-  "<binary value, not decoded>"
+  "260003223718582"
 ]
