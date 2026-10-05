@@ -1,15 +1,8 @@
 [
-  "target-app-list",
-  "[]uint8",
-  [
-    {
-      "i": "Default"
-    }
-  ],
-  "iap1-tid",
+  "lastVer",
+  "iap1-time",
   "string",
-  "260003223718582",
-  "settingsFormat",
+  "2026-09-13T22:18:48-05:00",
   "game-con-list",
   "[]uint8",
   [
@@ -30,18 +23,16 @@
       "q": 12100
     }
   ],
-  "iap1-sk2",
-  "agree",
   "trial-end",
   "int64",
   "<binary value, not decoded>",
   "trial",
   "int64",
   "<binary value, not decoded>",
-  "first-run",
+  "settingsFormat",
   "mapping",
   "[]uint8",
-  "R",
+  "X",
   [
     {
       "e": "057e_2006_6d75c0c4",
@@ -163,7 +154,7 @@
         },
         "65536": {
           "o": 14,
-          "q": "f13",
+          "q": "f16",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -228,7 +219,8 @@
           "u": "com.apple.keylayout.US"
         },
         "16777216": {
-          "o": 1
+          "o": 1,
+          "r": 1
         },
         "2": {
           "o": 14,
@@ -334,8 +326,17 @@
       }
     }
   ],
-  "lastVer",
-  "iap1-time",
+  "agree",
+  "iap1-sk2",
+  "target-app-list",
+  "[]uint8",
+  [
+    {
+      "i": "Default"
+    }
+  ],
+  "iap1-tid",
   "string",
-  "2026-09-13T22:18:48-05:00"
+  "260003223718582",
+  "first-run"
 ]
