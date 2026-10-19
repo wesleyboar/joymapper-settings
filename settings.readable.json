@@ -1,7 +1,4 @@
 [
-  "trial",
-  "int64",
-  "<binary value, not decoded>",
   "target-app-list",
   "[]uint8",
   [
@@ -10,14 +7,6 @@
     }
   ],
   "iap1-sk2",
-  "trial-end",
-  "int64",
-  "<binary value, not decoded>",
-  "lastVer",
-  "first-run",
-  "iap1-time",
-  "string",
-  "2026-09-13T22:18:48-05:00",
   "mapping",
   "[]uint8",
   "g",
@@ -117,7 +106,7 @@
           "u": "com.apple.keylayout.US"
         },
         "4294969344": {
-          "o": 6,
+          "o": 21,
           "r": 1,
           "t": 2,
           "u": "com.apple.keylayout.US"
@@ -260,7 +249,7 @@
           "u": "com.apple.keylayout.US"
         },
         "4294968320": {
-          "o": 21,
+          "o": 6,
           "r": 1,
           "t": 2,
           "u": "com.apple.keylayout.US"
@@ -317,6 +306,14 @@
       }
     }
   ],
+  "trial",
+  "int64",
+  "<binary value, not decoded>",
+  "lastVer",
+  "first-run",
+  "iap1-time",
+  "string",
+  "2026-09-13T22:18:48-05:00",
   "iap1-tid",
   "string",
   "260003223718582",
@@ -343,5 +340,8 @@
     }
   ],
   "agree",
-  "settingsFormat"
+  "settingsFormat",
+  "trial-end",
+  "int64",
+  "<binary value, not decoded>"
 ]
