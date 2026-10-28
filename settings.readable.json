@@ -1,4 +1,29 @@
 [
+  "iap1-tid",
+  "string",
+  "260003223718582",
+  "game-con-list",
+  "[]uint8",
+  [
+    {
+      "a": "057e_2006_6d75c0c4",
+      "b": 281474976710656,
+      "c": 179955455,
+      "f": "50:23:6D:75:C0:C4",
+      "g": 0.15,
+      "o": "50:23:6D:75:C0:C4",
+      "q": 12100
+    },
+    {
+      "a": "057e_2007_643105fa",
+      "b": 562949953421312,
+      "c": 179955455,
+      "f": "AC:FA:E4:31:05:FA",
+      "h": 0.15,
+      "o": "AC:FA:E4:31:05:FA",
+      "q": 12100
+    }
+  ],
   "target-app-list",
   "[]uint8",
   [
@@ -9,7 +34,7 @@
   "iap1-sk2",
   "mapping",
   "[]uint8",
-  "g",
+  "d",
   [
     {
       "e": "057e_2006_6d75c0c4",
@@ -133,7 +158,7 @@
         },
         "65536": {
           "o": 14,
-          "q": "f16",
+          "q": "f14",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -164,7 +189,7 @@
       "g": {
         "1": {
           "o": 14,
-          "q": "left",
+          "q": "f19",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -203,7 +228,7 @@
         },
         "2": {
           "o": 14,
-          "q": "up",
+          "q": "f16",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -232,7 +257,7 @@
         },
         "4": {
           "o": 14,
-          "q": "down",
+          "q": "f18",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -284,7 +309,7 @@
         },
         "8": {
           "o": 14,
-          "q": "right",
+          "q": "f17",
           "r": 1,
           "u": "com.apple.keylayout.US"
         },
@@ -309,39 +334,14 @@
   "trial",
   "int64",
   "<binary value, not decoded>",
-  "lastVer",
   "first-run",
   "iap1-time",
   "string",
   "2026-09-13T22:18:48-05:00",
-  "iap1-tid",
-  "string",
-  "260003223718582",
-  "game-con-list",
-  "[]uint8",
-  [
-    {
-      "a": "057e_2006_6d75c0c4",
-      "b": 281474976710656,
-      "c": 179955455,
-      "f": "50:23:6D:75:C0:C4",
-      "g": 0.15,
-      "o": "50:23:6D:75:C0:C4",
-      "q": 12100
-    },
-    {
-      "a": "057e_2007_643105fa",
-      "b": 562949953421312,
-      "c": 179955455,
-      "f": "AC:FA:E4:31:05:FA",
-      "h": 0.15,
-      "o": "AC:FA:E4:31:05:FA",
-      "q": 12100
-    }
-  ],
-  "agree",
   "settingsFormat",
   "trial-end",
   "int64",
-  "<binary value, not decoded>"
+  "<binary value, not decoded>",
+  "lastVer",
+  "agree"
 ]
